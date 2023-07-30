@@ -27,6 +27,7 @@ import { SafetyCertificateComponent } from './safety-certificate/safety-certific
 import { SMCComponent } from './smc/smc.component';
 import { StaffAndInfraComponent } from './staff-and-infra/staff-and-infra.component';
 import { WaterSanitationComponent } from './water-sanitation/water-sanitation.component';
+import { PublicDisclosureComponent } from './public-disclosure/public-disclosure.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -41,6 +42,7 @@ const routes: Routes = [
   {path:'docsAndInfo',component:DocsandinfoComponent},
   {path:'ResultsAndAcademics',component:ResultsComponent},
   {path:'StaffAndInfra',component:StaffAndInfraComponent},
+  {path:'MandatoryPublicDisclosureInSARAS',component:PublicDisclosureComponent},
   {path:'FeeStructure' ,component:FeeStructureComponent},
   {path:'AcademicCalender',component:CalendarComponent},
   {path:'Link_of_ThreeYearResult',component:AcademicResultComponent},

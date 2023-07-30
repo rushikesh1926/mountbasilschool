@@ -31,6 +31,7 @@ import { FireSafetyComponent } from './fire-safety/fire-safety.component';
 import { DEOCertificateComponent } from './deo-certificate/deo-certificate.component';
 import { WaterSanitationComponent } from './water-sanitation/water-sanitation.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { PublicDisclosureComponent } from './public-disclosure/public-disclosure.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     FireSafetyComponent,
     DEOCertificateComponent,
     WaterSanitationComponent,
-    GalleryComponent
+    GalleryComponent,
+    PublicDisclosureComponent
   ],
   imports: [
     BrowserModule,
