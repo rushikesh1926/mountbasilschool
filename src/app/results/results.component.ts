@@ -14,18 +14,18 @@ export class ResultsComponent implements OnInit {
   }
 
   onclickfeeStructure(){
-    this.router.navigateByUrl('feeStructure')
+    this.router.navigateByUrl('FeeStructure')
   }
 
   onclickCalendar(){
-    this.router.navigateByUrl('academicCalender')
+    this.router.navigateByUrl('AcademicCalender')
   }
 
   onclickSMC(){
-    this.router.navigateByUrl('smc')
+    this.router.navigateByUrl('List_of_SMC')
   }
 
   onclickresult(){
-    this.router.navigateByUrl('resultsAcademics')
+    this.router.navigateByUrl('Link_of_ThreeYearResult')
   }
 }

@@ -14,35 +14,35 @@ export class DocsandinfoComponent implements OnInit {
   }
   
   onclickupgrade(){
-    this.router.navigateByUrl('mainUpgrade');
+    this.router.navigateByUrl('affiliationLetter');
   }
 
   onclicknocCert(){
-    this.router.navigateByUrl('nocCertificate')
+    this.router.navigateByUrl('NOC')
   }
 
   onclickrenewal(){
-    this.router.navigateByUrl('renewalCertificate')
+    this.router.navigateByUrl('TrustCertificate')
   }
 
   onClickRecCertificate(){
-    this.router.navigateByUrl('recCertificate')
+    this.router.navigateByUrl('RecognitionCertificate')
   }
 
   onSafetyCertificate(){
-    this.router.navigateByUrl('safetycertificate')
+    this.router.navigateByUrl('BuildingCertificate')
   }
 
   onfireSafety(){
-    this.router.navigateByUrl('fireSafety')
+    this.router.navigateByUrl('FireCertificate')
   }
 
   onDeoCertificate(){
-    this.router.navigateByUrl('deoCertificate')
+    this.router.navigateByUrl('DEOCertificate')
   }
 
   onclickwatersanitation(){
-    this.router.navigateByUrl('WaterAndSanition')
+    this.router.navigateByUrl('WaterHealthCertificate')
   }
 
 
