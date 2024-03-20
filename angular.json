@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "cinebee"
+  "cli": {
+    "analytics": "2295f668-5f49-4cf9-b963-16ba94607f16"
+  }
 }
