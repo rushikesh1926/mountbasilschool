@@ -1,0 +1,9 @@
+ng build
+
+npm install -g firebase-tools for node >=2-
+
+firebase --version
+
+Firebase login for rushikeshlittu@gmail.com
+
+Firebase deploy
