@@ -14,6 +14,34 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Deploy
+
+Angular 12 has to be built with Node 16. The Firebase CLI needs Node 20. A newer default Node (for example 24) cannot build this app.
+
+Log in once with the Google account that already owns this site. The Firebase project is the one saved in `.firebaserc`. Keep that account and the project id out of this file.
+
+```bash
+export NVM_DIR="$HOME/.nvm"
+. "$NVM_DIR/nvm.sh"
+
+nvm use 16.20.2
+npx ng build --configuration production
+
+nvm use 20
+npx firebase-tools deploy --only hosting
+```
+
+`Unable to locate stylesheet` for the Bootstrap and Font Awesome CDN links during the build can be ignored.
+
+To check the site locally before deploying:
+
+```bash
+nvm use 16.20.2
+npx ng serve --host 127.0.0.1 --port 4201
+```
+
+Then open `http://127.0.0.1:4201/`.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).

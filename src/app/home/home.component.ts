@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   }
 
   onclickreadmore(){
-    this.router.navigateByUrl('aboutus')
+    this.router.navigateByUrl('about')
   }
 
   onclickMore(){

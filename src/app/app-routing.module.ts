@@ -33,6 +33,7 @@ const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'getstarted',component:GetStartedComponent},
   {path:'login',component:LoginComponent},
+  {path:'about',component:AboutUsComponent},
   {path:'aboutus',component:AboutUsComponent},
   {path:'activities',component:ActivitiesComponent},
   {path:'contactUs',component:ContactUsComponent},
